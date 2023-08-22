@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    
+    <style>
+        body{
+            background-color: rgb(54, 190, 190);
+            text-align: center;
+            padding-top: 210px;
+        }
+        h1{
+            font-size: 34px;
+            font-family: cursive;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>VEJA SEU IMC</h1>
+
+    <form action="teste.php" method="POST">
+        <label for="altura">Digite sua altura:</label><br>
+        <input type="float" id="altura" name="altura"><br>
+        <label for="peso">Digite seu peso:</label><br>
+        <input type="float" id="peso" name="peso"><br><br>
+        <input type="submit" value="Ver resultado">
+      </form>
+    
+</body>
+</html>
