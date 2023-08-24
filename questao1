@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+    <style>
+        body{
+            background-color: rgb(54, 190, 190);
+            text-align: center;
+            padding-top: 210px;
+        }
+        h1{
+            font-size: 34px;
+            font-family: cursive;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CALCULADORA</h1>
+
+    <form action="questao1.php" method="POST">
+        <label for="operador">Digite o operador para o calculo:</label><br>
+        <input type="text" id="sinal" name="sinal"><br>
+
+        <label for="num1">Digite um número:</label><br>
+        <input type="number" id="num1" name="num1"><br>
+
+        <label for="num2">Digite outro número para ser calculado:</label><br>
+        <input type="number" id="num2" name="num2"><br><br>
+        <input type="submit" value="Ver resultado">
+      </form>
+    
+</body>
+</html>
+
