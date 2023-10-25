@@ -1,11 +1,8 @@
 <?php
 
-$num1 = $_POST ["num1"];
+$n1 = $_POST["n1"];
+$i = 1;
 
-if ($num1 % 2 == 0){
-   echo "O número é PAR!!!";
-}
+if($n1>=0){
 
-else {
-    echo "O Número é ÍMPAR!!!";
 }
