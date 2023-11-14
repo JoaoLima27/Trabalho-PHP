@@ -8,19 +8,19 @@
         
         //---------- GETTERS (retorna o valor dos atributos de classe/objetos) ----------
         public function getMatricula(){
-            return this->$matriculaAluno;
+            return $this->matriculaAluno;
         }
         public function getNome(){
-            return this->$nomeAluno;
+            return $this->nomeAluno;
         }
         public function getEmail(){
-            return this->$emailAluno;
+            return $this->emailAluno;
         }
         public function getTel(){
-            return this->$telAluno;
+            return $this->telAluno;
         }
         public function getTurno(){
-            return this->$turnoAluno;
+            return $this->turnoAluno;
         }
 
          //---------- SETTERS (alteram o valor dos atributos de classe/objetos) ----------
@@ -38,5 +38,15 @@
         }
         public function setTurno($novoTurno){
             $this->turnoAluno = $novoTurno;
+        }
+
+        //-----Outros Metodos-----
+
+        public function verificarTurnoNoturno(){
+            if(strtolower($this->turnoAluno) == "noturno"){
+                return TRUE;
+            }else{
+                return FALSE;
+            }
         }
     }
